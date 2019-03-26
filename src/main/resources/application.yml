@@ -1,0 +1,3 @@
+spring:
+  application:
+    name: mybatis-plus-gengrator-ui

@@ -14,6 +14,8 @@
 	<name>mybatis-plus-generator-ui</name>
 	<description>Mybatis Plus 代码生成器Web界面</description>
 
+	<url>https://1024-organization.io/mybatis-plus-generator-ui</url>
+
 	<properties>
 		<java.version>1.8</java.version>
 	</properties>
@@ -42,6 +44,15 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>com.baomidou</groupId>
+			<artifactId>mybatis-plus-generator</artifactId>
+			<version>3.0.6</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-freemarker</artifactId>
 		</dependency>
 	</dependencies>
 
